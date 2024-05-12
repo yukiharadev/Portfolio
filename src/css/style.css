@@ -99,13 +99,23 @@ body {
 }
 
 .line-bottom {
-  border-bottom: 1px solid #00000057;
+  border-bottom: 1px solid #00000025;
   padding-bottom: 16px;
   margin-bottom: 16px;
 }
 
-.line-bottom .content-edu span :first-child {
+.content-card span:first-child {
   color: #4658ff;
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 0.9rem;
+}
+
+.content-card span:last-child {
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.content-card h2 {
+  font-weight: 700;
 }
